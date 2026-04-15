@@ -87,6 +87,32 @@ liveview_*
 tchmipublish.journal.json
 backup_*.Server/
 
+### Claude Code / AI Agents ###
+.claude/
+claude_debug.log
+.anthropic/
+# === Security & Secrets ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+# === System Files ===
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+# === Dependencies & Build Artifacts ===
+node_modules/
+dist/
+build/
+.cache/
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
